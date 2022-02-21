@@ -7,12 +7,12 @@ const initialNotes = [
     {
         content: 'Aprendiendo fullstack js with me',
         importart: true,
-        date: new Date()
+        date: new Date(),
     },
     {
         content: 'Sigueme en redes sociales',
         importart: true,
-        date: new Date()
+        date: new Date(),
     }
 ]
 

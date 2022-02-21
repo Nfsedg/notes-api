@@ -55,7 +55,7 @@ test('a valid note can be added', async () => {
     expect(contents).toContain(newNote.content)
 })
 
-test('a valid note can be added', async () => {
+test('a invalid note cant be added', async () => {
     const newNote = {
         important: true
     }

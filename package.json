@@ -5,19 +5,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=developmet nodemon index.js",
-    "lint": "npm run lint",
+    "lint": "eslint .",
     "start": "NODE_ENV=production node index.js",
-    "test": "NODE_ENV=test PORT=3008 jest --silent test/user.test.js",
+    "test": "NODE_ENV=test PORT=3008 jest --silent test/notes.test.js",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "Edgar Pech <edgaropech@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^5.0.1",
+    "bcrypt": "5.0.1",
     "cors": "2.8.5",
     "dotenv": "16.0.0",
     "express": "4.17.2",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.1",
     "mongoose-unique-validator": "^3.0.0"
   },
